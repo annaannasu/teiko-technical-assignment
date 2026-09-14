@@ -15,8 +15,8 @@ DB_PATH = ROOT / "cell_counts.db"
 st.set_page_config(page_title="Loblaw Bio Immune Cell Analysis", layout="wide")
 st.title("Loblaw Bio · Immune Cell Analysis")
 if not DB_PATH.exists():
-    st.error("Database missing. Run `make pipeline` first.")
-    st.stop()
+    import load_data
+    load_data.main()
 
 
 @st.cache_data
