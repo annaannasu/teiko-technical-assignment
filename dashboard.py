@@ -14,9 +14,8 @@ DB_PATH = ROOT / "cell_counts.db"
 
 st.set_page_config(page_title="Loblaw Bio Immune Cell Analysis", layout="wide")
 st.title("Loblaw Bio · Immune Cell Analysis")
-if not DB_PATH.exists():
-    import load_data
-    load_data.main()
+import load_data
+load_data.main()
 
 
 @st.cache_data
