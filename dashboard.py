@@ -18,7 +18,6 @@ import load_data
 load_data.main()
 
 
-@st.cache_data
 def sql(query: str) -> pd.DataFrame:
     with sqlite3.connect(DB_PATH) as connection:
         return pd.read_sql_query(query, connection)
