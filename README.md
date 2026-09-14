@@ -14,7 +14,7 @@ Once Streamlit starts, open the forwarded port to view the dashboard. The dashbo
 
 ## Dashboard
 
-**Hosted dashboard:** link
+**Hosted dashboard:** [View the Streamlit dashboard](https://teiko-technical-assignment-htwvpb3tqm3vfdc9mq2gxj.streamlit.app)
 
 Running `make pipeline` rebuilds `cell_counts.db` from scratch and creates:
 
