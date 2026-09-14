@@ -15,6 +15,7 @@ Once Streamlit starts, open the forwarded port to view the dashboard. The dashbo
 ## Dashboard
 
 **Hosted dashboard:** [View the Streamlit dashboard](https://teiko-technical-assignment-jijgdtxuyeuanqt73afi7k.streamlit.app/)
+
 Running `make pipeline` rebuilds `cell_counts.db` from scratch and creates:
 
 * `outputs/cell_frequency_summary.csv` — cell frequencies for Part 2
